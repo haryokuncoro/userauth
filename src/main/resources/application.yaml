@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: userauth
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userauth
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+jwt:
+  secret: myjwtsecret12347909123
