@@ -15,4 +15,4 @@ spring:
     locations: classpath:db/migration
 
 jwt:
-  secret: myjwtsecret12347909123
+  secret: K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=
